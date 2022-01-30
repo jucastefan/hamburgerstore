@@ -13,6 +13,8 @@ import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Drinks from "./pages/Drinks";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const App = () => {
   const {
@@ -39,6 +41,12 @@ const App = () => {
           </Route>
           <Route path={"/drinks"}>
             <Drinks />
+          </Route>
+          <Route path={"/about"}>
+            <About />
+          </Route>
+          <Route path={"/contact"}>
+            <Contact />
           </Route>
           <Redirect to={"/"} />
         </Switch>

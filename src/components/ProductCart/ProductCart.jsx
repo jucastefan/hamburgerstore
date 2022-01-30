@@ -49,11 +49,16 @@ const ProductCart = (props) => {
               ></img>
             </MDBContainer>
           </MDBCol>
-          <MDBCol lg="2" className="col d-flex align-items-center">
+          <MDBCol
+            md={12}
+            sm={12}
+            lg={2}
+            className="col d-flex align-items-center"
+          >
             <MDBContainer>
               <MDBInput
                 onChange={onChangeQuantity}
-                label="Qty (numbers)"
+                label="Qty(numbers)"
                 id="qty"
                 type="text"
                 className=" form-white form-outline bg-white"

@@ -80,7 +80,7 @@ const Header = () => {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink
-                href="/menu"
+                href="/about"
                 className={`${classes.hvr_underline_from_left} me-lg-5 text-dark`}
               >
                 <MDBIcon fas icon="book-open" /> About
@@ -88,7 +88,7 @@ const Header = () => {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink
-                href="/menu"
+                href="/contact"
                 className={`${classes.hvr_underline_from_left} me-lg-5 text-dark`}
               >
                 <MDBIcon fas icon="phone-volume" /> Contact
