@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  background-color: #ffcaac;
+  background-image: linear-gradient(62deg, #fe9900 0%, #fe9900 100%);
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}

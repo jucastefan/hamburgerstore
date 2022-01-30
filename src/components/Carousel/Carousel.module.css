@@ -1,0 +1,41 @@
+.carousel_img {
+  height: 32rem;
+  width: 60rem;
+  max-height: 60rem;
+}
+.carousel_container {
+  position: relative;
+  max-width: 60rem;
+}
+.carousel_container::before {
+  content: "";
+  background-color: #ffffff;
+  opacity: 0.2;
+  background-image: linear-gradient(135deg, #1a1c34 25%, transparent 25%),
+    linear-gradient(225deg, #1a1c34 25%, transparent 25%),
+    linear-gradient(45deg, #1a1c34 25%, transparent 25%),
+    linear-gradient(315deg, #1a1c34 25%, #ffffff 25%);
+  background-position: 40px 0, 40px 0, 0 0, 0 0;
+  background-size: 80px 80px;
+  background-repeat: repeat;
+  display: block;
+  position: absolute;
+  top: 2rem;
+  bottom: 2rem;
+  right: -20rem;
+  left: -20rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel_img {
+    width: 30rem;
+    height: 15rem;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .carousel_img {
+    width: 30rem;
+    height: 12rem;
+  }
+}

@@ -1,0 +1,27 @@
+.scroll_container {
+  max-height: 2.5rem;
+  overflow: hidden;
+}
+
+.scroll_text {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(50%);
+
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-80%);
+    -webkit-transform: translateX(-80%);
+    transform: translateX(-80%);
+  }
+  to {
+    -moz-transform: translateX(80%);
+    -webkit-transform: translateX(80%);
+    transform: translateX(80%);
+  }
+}

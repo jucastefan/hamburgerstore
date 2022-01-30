@@ -1,0 +1,31 @@
+.container_banner {
+  padding: 0;
+  position: relative;
+}
+
+.banner_img {
+  width: 70%;
+  position: relative;
+}
+
+.container_banner::before {
+  content: "";
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+  top: 2rem;
+  bottom: 2rem;
+  right: -20rem;
+  left: -20rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner_img {
+    width: 100%;
+  }
+}
