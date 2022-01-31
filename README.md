@@ -4,11 +4,6 @@
 
 <p id="description">"HamburgerStore" it's a restaurant that adapts to the taste of each client. Here are the most delicious burgers ever made. From our love for cooking but also the desire to offer quality services our fast food restaurant is an excellent choice.</p>
 
-<h2>Project Screenshots:</h2>
-
-<img src="https://i.ibb.co/SrxhPVh/hambstore.png" alt="project-screenshot" width="1920" height="1080/">
-
-  
   
 <h2>🧐 Features</h2>
 
