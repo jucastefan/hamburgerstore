@@ -43,7 +43,7 @@ const Cart = () => {
   return (
     <MDBContainer>
       <MDBRow>
-        <MDBCol sm="12" md="12" sm="12" className="col py-3">
+        <MDBCol size={12} className="col py-3">
           <MDBListGroup className={`${classes} py-2`}>
             <MDBListGroupItem>
               <MDBCard
@@ -64,7 +64,7 @@ const Cart = () => {
             </MDBListGroupItem>
           </MDBListGroup>
         </MDBCol>
-        <MDBCol sm="12" className="col py-4">
+        <MDBCol size={12} className="col py-4">
           <MDBListGroup
             className={`${classes} py-2`}
             style={{ minWidth: "20rem" }}

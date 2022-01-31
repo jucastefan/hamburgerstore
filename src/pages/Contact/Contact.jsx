@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <MDBContainer>
       <MDBRow>
-        <MDBCol size="md" className="col text-dark pt-2">
+        <MDBCol size="12" className="col text-dark pt-2">
           <h1>Get in touch</h1>
 
           <p>
@@ -15,11 +15,11 @@ const Contact = () => {
             Email:hamburger_store@hmbstore.com
           </p>
         </MDBCol>
-        <MDBCol size="md" className="col pb-3">
+        <MDBCol size="12" className="col pb-3">
           <img
             src={"https://i.ibb.co/VSjRFN5/map.png"}
             alt={"about"}
-            className="rounded shadow"
+            className={`${classes.img_contact} rounded shadow img-fluid`}
           />
         </MDBCol>
       </MDBRow>

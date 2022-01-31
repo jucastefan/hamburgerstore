@@ -26,7 +26,7 @@ const ProductDrink = (props) => {
   };
 
   return (
-    <MDBCol sm="6" className="col p-4">
+    <MDBCol sm="12" md="6" className="col p-5">
       <MDBCard
         style={{ width: "auto" }}
         alignment="center"

@@ -32,16 +32,16 @@ const ProductCart = (props) => {
 
   return (
     <Fragment>
-      <MDBCol lg="12" className="col my-3">
+      <MDBCol size={12} className="col my-3">
         <MDBRow>
-          <MDBCol lg="3" className="col d-flex align-items-center">
+          <MDBCol size={12} className="col d-flex align-items-center">
             <MDBContainer>
               <MDBCardTitle className="text-dark fs-2">
                 {props.name}
               </MDBCardTitle>
             </MDBContainer>
           </MDBCol>
-          <MDBCol lg="3" className="col py-4">
+          <MDBCol size={12} size className="col py-4">
             <MDBContainer>
               <img
                 src={props.image}
@@ -49,12 +49,7 @@ const ProductCart = (props) => {
               ></img>
             </MDBContainer>
           </MDBCol>
-          <MDBCol
-            md={12}
-            sm={12}
-            lg={2}
-            className="col d-flex align-items-center"
-          >
+          <MDBCol size={12} className="col d-flex align-items-center">
             <MDBContainer>
               <MDBInput
                 onChange={onChangeQuantity}
@@ -66,7 +61,7 @@ const ProductCart = (props) => {
               />
             </MDBContainer>
           </MDBCol>
-          <MDBCol lg="3" className="col d-flex align-items-center">
+          <MDBCol size={12} className="col d-flex align-items-center">
             <MDBContainer>
               <MDBCardText className="text-dark fs-2">
                 Price: {props.price}€
@@ -76,7 +71,7 @@ const ProductCart = (props) => {
         </MDBRow>
       </MDBCol>
       <MDBCol
-        lg="12"
+        size={12}
         className="col d-flex align-items-center justify-content-center square border-bottom"
       >
         <MDBBtn onClick={removeFromCartClickHandler} className="btn-dark mb-2">
