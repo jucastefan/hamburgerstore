@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Hamburger Store</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/jucastefan/hamburgerstore/image?descriptionEditable=%22HamburgerStore%22%20it%27s%20a%20simple%20restaurant%20that%20adapts%20to%20the%20taste%20of%20each%20client.%20Here%20are%20the%20most%20delicious%20burgers%20ever%20made.%20From%20our%20love%20for%20cooking%2C%20but%20also%20the%20desire%20to%20offer%20quality%20services%2C%20our%20fast%20food%20restaurant%20is%20an%20excellent%20choice.&amp;font=Raleway&amp;language=1&amp;logo=https%3A%2F%2Fi.ibb.co%2F7txFB77%2FHamburger-Store-logos-transparent.png&amp;owner=1&amp;pattern=Solid&amp;theme=Light" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">"HamburgerStore" it's a restaurant that adapts to the taste of each client. Here are the most delicious burgers ever made. From our love for cooking but also the desire to offer quality services our fast food restaurant is an excellent choice.</p>
 
-In the project directory, you can run:
+<h2>Project Screenshots:</h2>
 
-### `npm start`
+<img src="https://i.ibb.co/SrxhPVh/hambstore.png" alt="project-screenshot" width="1920" height="1080/">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+  
+<h2>🧐 Features</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here're some of the project's best features:
 
-### `npm test`
+*   menu with dynamically inserted products stored in a Firebase database
+*   a main page with various images representative to the website theme
+*   the cart receives data through React Context API
+*   scroll text made with CSS
+*   quantity of a product can be change by writing in the cart
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+  
+<h2>💻 Built with</h2>
 
-### `npm run build`
+Technologies used in the project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   JavaScript
+*   React
+*   CSS
+*   HTML5
+*   Bootstrap
